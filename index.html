@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ad3be47b50.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href = "portfolio.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+        <!-- Menu Bar -->
+
+       <div class="container-fluid" id = "header">
+           <div id = "title">
+               <p>MY PORTFOLIO</p>
+           </div>
+           <div id="menu">
+                <ul class = "menuitems">
+                    <li class = "item"> <a href="#AboutMe"> About</a></li>
+                    <li> <a href="#education"> Education</a></li>
+                    <li> <a href="#skills"> Skills</a></li>
+                    <li> <a href="#project"> Projects</a></li>
+                </ul>
+           </div>
+       </div>
+
+       <!--Intro and Pic-->
+
+       <div class = "container-fluid" id="introNpic">
+           <div class = "row">
+               <div class = "col-md-7 order-md-1" id = "intro">
+                    <div id = "insideIntro">
+                        <p> Hello,</p>
+                        <p>I'M HEMANTH</p>
+                        <p>Computer Science Engineer<br> & Web Developer</p> 
+                        <a href="MyResume.pdf" target="_blank">
+                            <button type = "button" id = "view">View Resume</button>
+                        </a>
+                        <a href="MyResume.pdf" download="P HEMANTH'S RESUME">
+                            <button type="button" id = "download">Download Resume</button>
+                            </a>
+
+                    </div>
+               </div>
+               <div class = "col-md-5 order-md-2" id = "pic">
+                    <img src="MyPic.PNG" alt="Your browser is not supporting the photo">
+               </div>
+           </div>
+       </div>
+
+       <!--About-->
+
+       <div class="container" id="AboutMe">
+        <h2> About Me </h2>
+        <p> Computer Science Engineer </p>
+        <p>Ambitious and self-esteemed engineering fresher who is capable of applying technical skills for the improvement of the company. 
+            Improved my web development skills with the help of graduation in Computer Engineering and looking forward to work in a 
+            competitive environment that can boost my overall learning.
+        </p>
+       </div>
+
+       <!--Education-->
+
+       <div class = "container-fluid" id = "education">
+           <div class="container" id = "INTeducation">
+            <p id = "ed">Education</p>
+            <div class = "row justify-content-center">
+                 <div class = "col-lg-4 col-md-6">
+                     <div id = INTbtech>
+                         <p class = "EDUtitle">Bachelors of Engineering</p>
+                         <p class="info">Guru Nanak Institute of Technology</p>
+                         <p class="info">Stream - Computer Science Engineering</p>
+                         <p class="info">Secured an overall GPA of 7.01 until now</p>
+                     </div>
+                 </div>
+ 
+                 <div class = "col-lg-4 col-md-6">
+                     <div id="INTinter">
+                         <p class = "EDUtitle">Intermediate</p>
+                         <p class="info">Sri Chaitanya Juniour Kalashala,Hyderabad</p>
+                         <p class="info">Courses Undertaken Physics, Chemistry and Maths</p>
+                         <p class="info">Qualifed for JEE Advance</p>
+                         <p class="info">Scored 92.4% in my State Board Examination</p>
+                     </div>
+                 </div>
+ 
+                 <div class = "col-lg-4 col-md-6">
+                     <div id = "INTtenth">
+                         <p class = "EDUtitle">Secondary School Certificate</p>
+                         <p class="info">Bhashyam Public School, Hyderabad</p>
+                         <p class="info">Scored 9.5 GPA in my State Board Examinations </p>
+                     </div>
+                 </div>
+            </div>
+           </div>
+       </div>
+
+        <!--Skills-->
+
+       <div class = "container-fluid" id = "mainContainer">
+        <div class = "container" id = "skills">
+            <h2 class = "display-5 text-center">Skills</h2>
+            <ul class="nav justify-content-center nav-pills flex-column flex-md-row">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#languages">Languages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#databases">Databases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#webTechnologies">Web Technologies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-toggle="tab" href="#methodologies">Methodologies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#sourceControl">Source Control</a>
+                </li>
+            </ul>
+
+            <div class = "tab-content">
+                <div class = "tab-pane active" id="languages">
+                    <div id = "INTlang">
+                        <img class = "skillsPic" src="c.png" alt="C Language">
+                        <img class = "skillsPic" src="cpp.png" alt="C++ Language">
+                        <img class = "skillsPic" src="java.png" alt="Java Language">
+                    </div>
+                </div>
+
+                <div class = "tab-pane" id = "databases">
+                    <div id = "INTdb">
+                        <img class = "skillsPic" src="sql.png" alt="SQL">
+                    </div>
+                </div>
+
+                <div class = "tab-pane" id = "webTechnologies">
+                    <div id = "INTwt">
+                        <img class = "skillsPic" src="html.png" alt="HTML">
+                        <img class = "skillsPic" src="css.png" alt="CSS">
+                        <img class = "skillsPic" src="js.png" alt="Javascript">
+                        <img class = "skillsPic" src="bootstrap.png" alt="Bootstrap">
+                    </div>
+                </div>
+
+                <div class = "tab-pane" id = "methodologies"> 
+                    <div id = "INTmeth">
+                        <img class = "skillsPic" src="agile.png" alt="Agile Methodology">
+                        <img class = "skillsPic" src="waterfall.png" alt="Waterfall Methodology">
+                    </div>
+                </div>
+
+                <div class = "tab-pane" id = "sourceControl">
+                    <div id = "INTsc">
+                        <img class = "skillsPic" src="git.png" alt="Github">
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+
+        <!--Projects-->
+
+
+        <div class = "container-fluid" id = "project">
+            <div class = "container text-muted">
+                <h2 class = "display-5 text-center" id = "subTitleProj" style="color: black;"> Projects </h2>
+            <div class = "row justify-content-center" id = "rowProject">
+                <div class = "col-lg-4 col-md-6" >
+                    <a href="https://hemanth-05.github.io/ProjectPubg/" style="text-decoration: none; color:#010101" target="_blank">
+                        <div class = "card">
+                            <img src="ProjectPubg.png" alt="" class = "card-img-top img-fluid">
+                            <div class = "card-body">
+                                <h3 class = "card-title text-center" id = "cardTitle1"> Project Pubg</h3>
+                                <p class = "cardText">This website tells about all the details of the armory(weapons) used in the game PUBG. I have created this website from scratch using HTML and CSS.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        
+                <div class = "col-lg-4 col-md-6">
+                    <a href="https://hemanth-05.github.io/GPACalculator/index.html#" style="text-decoration: none; color:#010101" target="_blank">
+                        <div class = "card">
+                            <img src="GpaCalculator.png" alt="" class = "card-img-top img-fluid">
+                            <div class = "card-body">
+                                <h3 class = "card-title text-center" id = "cardTitle2"> GPA Calculator</h3>
+                                <p class = "cardText">This website is used to calculate the GPA of each and every semister. I have created this website from scratch using HTML, CSS, Javascript and Bootstrap.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        
+                <div class = "col-lg-4 col-md-6">
+                    <a href="#" style="text-decoration: none; color:#010101" target="_blank">
+                        <div class = "card">
+                            <img src="MyPortfolio.png" alt="" class = "card-img-top img-fluid">
+                            <div class = "card-body">
+                                <h3 class = "card-title text-center" id = "cardTitle3"> My Portfolio</h3>
+                                <p class = "cardText">This is a portfolio of me which has all the information about me academic wise.I have created this website from scratch using HTML Advanced CSS and Bootstrap.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div> 
+
+        <!--Footer-->
+
+    <div class = "container-fluid" id = "footer">
+        <p>If you have any project in mind.</p>
+        <p>Contact me:</p>
+        <div id = "footerBar">
+            <a href="https://www.facebook.com/hemanth.nath.10" class = "icons" target="_blank"><i class = "fab fa-facebook" ></i></a>
+            <a href="https://www.instagram.com/hemanth__nath/" class = "icons" target="_blank"><i class = "fab fa-instagram"></i></a> 
+            <a href="https://www.linkedin.com/in/pasupula-hemanth-6ab5211b5/" class = "icons" target="_blank"><i class="fa fa-linkedin-square"></i></a> 
+            <a href="https://github.com/Hemanth-05" class = "icons" target="_blank"><i class = "fab fa-github"></i></a> 
+        </div>
+        <p>@2021 Portfolio. All rights reserved</p>
+    </div>
+
+
+    <!-- Social Media Links Fixed -->
+    
+    <div id = "SMlinks">
+        <a href="https://www.facebook.com/hemanth.nath.10" class = "SMicons" target="_blank"><div class = "SM"> <i class = "fab fa-facebook" ></i> </div></a>
+        <a href="https://www.instagram.com/hemanth__nath/" class = "SMicons" target="_blank"><div class = "SM"> <i class = "fab fa-instagram"></i></div></a>
+        <a href="https://www.linkedin.com/in/pasupula-hemanth-6ab5211b5/" class = "SMicons" target="_blank"><div class = "SM"> <i class="fa fa-linkedin-square"></i></div></a> 
+        <a href="https://github.com/Hemanth-05" class = "SMicons" target="_blank"><div class = "SM"><i class = "fab fa-github"></i></div></a> 
+    </div>
+
+
+
+    <!-- Reference links -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <nav class = "nav justify-content-center nav-pills flex-column flex-md-row">
+                <a class = "nav-link active" href="#languages" data-toggle = "tab"> Languages </a>
+                <a class = "nav-link" href="#Databases" data-toggle = "tab"> Databases </a>
+                <a class = "nav-link" href="#webTechnologies" data-toggle = "tab"> Web Techlologies </a>
+                <a class = "nav-link" href="#methodologies" data-toggle = "tab"> Methodologies </a>
+                <a class = "nav-link" href="#sourceControl" data-toggle = "tab"> Source Control </a>
+    </nav>
+-->
+
+
+

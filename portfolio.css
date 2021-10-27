@@ -1,0 +1,627 @@
+/* Full Body */
+
+body{
+    background-color: #f6f5f5;
+    margin:0px;
+    padding:0px;
+}
+
+div{
+    /* border: 1px solid black; */
+}
+
+    /* Menu Bar */
+
+ul{
+    text-decoration: none;
+}
+
+ul li{
+    display:inline;
+}
+
+#menu ul li a{
+    font-family: mariad pro regular;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+a{
+    display:inline-block;
+}
+
+.menuitems li a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+#header{
+    display: inline-block;
+    background-color:#FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+#title{
+    float:left;
+    width:auto;
+    padding:5px;
+    position: relative;
+    top:8px;
+}
+
+#title p{
+    font-family: Copperplate;
+    color : #000000;
+    font-size:22px;
+    cursor: pointer;
+}
+
+#menu{
+    float:right;
+    width:auto;
+    word-spacing: 40px;
+    padding:5px;
+    position: relative;
+    top:10px;
+}
+
+        /* Intro and Pic */
+
+    /* Intro */
+
+#intro{
+
+    height:385px;
+}
+
+#insideIntro{
+    height:auto;
+    width:400px;
+    position: relative;
+    left:15%;
+    top:20%;
+
+}
+
+#insideIntro p:nth-child(1){
+    font-size:14px;
+    font-family:calibri;
+    font-weight:bold;
+    color : #6d6d6d;
+}
+
+#insideIntro p:nth-child(2){
+    font-size:50px;
+    font-family:calibri;
+    font-weight:bold;
+    letter-spacing:1px;
+    word-spacing: 2px;
+    color: #1a1a1a;
+}
+
+#insideIntro p:nth-child(3){
+    font-size:25px;
+    line-height:32px;
+}
+
+
+#insideIntro p{
+    line-height:0px;
+    margin: 45px 0px 25px;
+}
+
+/* BUTTONS in Intro */
+
+#insideIntro button{
+    width:160px;
+    height:50px;
+    border-radius:10px;
+    font-family:calibri;
+    font-weight:bold;
+    font-size:14px;
+    transition-property:transform;
+    transition-duration:200ms;
+    transition-timing-function:ease-in;
+}
+}
+
+#insideIntro button:active{
+    text-decoration:none;
+    outline-style:hidden;
+
+}
+
+#insideIntro button:hover{
+    transform : scale(1.1);
+}
+
+#view{
+    background-color:#f6f5f5;
+    margin-right:40px;
+    margin-left:10px;
+    border:2px solid black;
+   
+}
+
+#view:active{
+    color:#010101;
+}
+
+#download{
+    
+    background-color:#010101;
+    color:#f6f5f5;
+}
+
+    /* Pic */
+
+#pic{
+    background: linear-gradient(to right,#efe9e2,#f5f6f6);
+    height:450px;
+}
+
+#pic img{
+    width:350px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.2));
+    filter: drop-shadow(60px 2px 20px rgba(0,0,0,0.2));
+    position:relative;
+    right:90px;
+}
+
+
+
+    /* About */
+
+#AboutMe{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    padding:20px;
+}
+
+
+#AboutMe h2{
+    font-size:35px;
+    font-family:Verdana;
+}
+
+
+#AboutMe p:first-of-type{
+    font-size:25px;
+    font-family:Verdana;
+}
+
+#AboutMe p:nth-child(2){
+    font-family:calibri;
+}
+
+#AboutMe p:last-child{
+    font-family:Garamond;
+    font-size:17px;
+    word-spacing: 3px;
+  }
+
+    /* Education */
+
+    #education{
+    margin-top:20px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+
+  #ed{
+      text-align: center;
+  }
+  
+    #INTeducation{
+      padding:15px;
+  }
+  
+  #education #ed{
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+  }
+  
+  .EDUtitle{
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+  }
+  
+  .info{
+      font-family: courier new;
+      color:rgb(209, 181, 181)
+  }
+      
+  #INTbtech , #INTinter , #INTtenth{
+      background-color: #010101;
+      border-radius:5px;
+      padding:15px;
+      position:relative;
+      top:50%;
+      transform:translateY(-50%);
+      box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+      color:#f6f5f5;
+      font-family:calibri;
+      height:300px;
+      width:280px; 
+      margin-bottom:20px;   
+  }
+
+
+    /* Skills */
+
+#mainContainer{
+    font-family:calibri;
+    font-size: 17px;
+}
+
+#skills{
+    height:430px;
+    padding:20px;
+}
+
+#INTlang , #INTwt , #INTmeth{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width:80%;
+    margin-top:50px;
+    margin-bottom:25px;
+    padding:15px;
+}
+
+#INTdb , #INTsc{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width:80%;
+    margin-top:50px;
+    margin-bottom:25px;
+}
+
+.skillsPic{
+    height:150px;
+}
+
+#INTmeth .skillsPic{
+    height:200px;
+}
+
+
+.nav-pills .nav-item .nav-link:not(.active) {
+    background-color: transparent;
+    border:none;
+    color:black;
+    font-size:inherit;
+}
+
+.nav-link:not(.active):hover{
+    transform:scale(1.05);
+}
+
+
+/* active (faded) */
+.nav-pills .nav-item .nav-link {
+    background-color: transparent;
+    border:2px solid #010101;
+    border-radius:7px;
+    color: #010101;
+    font-size:17.5px;
+
+}
+
+
+
+
+
+    /* Projects */
+
+#project{
+    background-color: #FFFFFF;
+    padding:40px;
+    height:auto;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+    
+.cardText{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+#cardTitle1 , #cardTitle2 , #cardTitle3 {
+    font-weight: 250;
+}
+
+.card{
+    height:400px;
+    margin:20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+.card:hover{
+    opacity:0.8;
+}
+
+#rowProject .col-lg-4{
+    display:flex;
+    justify-content:center;
+  }
+  
+
+
+    /* Footer */
+
+#footer{
+    background-color: #010101;
+    color:#f5f6f6;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 17x;
+    margin-bottom: 0px;
+}
+
+
+#footer p:first-child
+{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#footer p:nth-child(2){
+    font-size: 31px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height:20px;
+}
+
+#footer p:last-child{
+    font-size:15px;
+    font-weight:300;
+  }
+
+#footerBar{
+    display: flex;
+    width:auto;
+    justify-content: center;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin:25px 0px;
+}
+
+.icons{
+    font-size: 45px;
+    color:#f6f5f5;
+    margin:0 20px;
+}
+
+.icons:hover{
+    transform: scale(1.2);
+    color:#f6f5f5;
+}
+
+
+
+/* Social Media Links Fixed  */
+    
+#SMlinks{
+    width:50px;
+    height:250px;
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    
+}
+
+.SM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #cbcbcb;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.SMicons{
+    font-size: 25px;
+    color:#2b2b2b;
+}
+
+.SM:hover{
+    background-color: #1a1a1a;
+    color:#f6f5f5;
+}
+
+
+
+
+            /* Media Queries for Responsiveness */
+
+@media(max-width:767px){
+
+        /* Menu Bar */
+
+    ul li{
+        display:block;
+    }
+    #title {
+        position:relative;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    #menu ul li a{
+        font-size: 18px;
+        line-height: 35px;;
+    }
+
+    #title p{
+            font-size: 35px;
+            margin-bottom: 0px;
+    }
+
+    #menu {
+        padding: 0;
+        text-align: center;
+        clear:left;
+        right:50%;
+        transform:translateX(35%);
+        line-height: 30px;
+    }
+
+        /* Intro n Pic */
+
+    /* Intro */
+
+    #insideIntro{
+        position: relative;
+        left:50%;
+        top:0%;
+        transform: translate(-50%);
+    }
+
+    /* Pic */
+
+    #pic {
+        height:300px;
+        width:300px;
+        border-radius: 25px;
+        overflow: hidden;
+        align-content: center;
+        position: relative;
+        left:50%;
+        transform: translate(-50%);
+        margin-top: -80px;
+        margin-bottom: 35px;
+    }
+
+    #pic img{
+        align-content: center;
+        position:relative;
+        left:-30px; 
+        top:-5%;
+    } 
+
+    /* Education */
+
+
+    #ed{
+    text-align:center;
+    }
+    
+    #INTbtech , #INTinter , #INTtenth{
+        position:relative;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+    
+    /* Skills */
+
+    #skills{
+        height:auto;
+    }
+
+    .skillsPic{
+        height:100px;
+    }
+
+    #INTmeth .skillsPic{
+        height:150px;
+    }
+
+    #INTlang , #INTwt , #INTmeth{
+        width:100%;
+    }
+
+    .nav-pills .nav-item .nav-link:not(.active) {
+        display:flex;
+        justify-content:center;
+    }
+    
+    
+    /* active (faded) */
+    .nav-pills .nav-item .nav-link {
+        display:flex;
+        justify-content:center;
+    
+    }
+
+        /* Project */
+
+    .card{
+        height:350px;
+        width:300px;
+        font-size: small;
+       
+    }
+
+    #subTitleProj{
+        text-align: center;
+    }
+  
+}
+
+
+
+
+@media(max-width:992px){
+
+    /* Education */
+
+  #ed{
+        text-align:center;
+    }
+    
+    #INTbtech , #INTinter , #INTtenth{
+        position:relative;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+
+    /* Skills */
+
+    #skills{
+        height:auto;
+    }
+
+    /* Social Media Links Fixed */
+
+    .SM{
+        display:none;
+    }
+
+}
+
+
+@media(max-width:405px){
+
+    /* Footer */
+
+    .icons{
+      height:40px;
+      width: 40px;
+      margin:0 15px;
+  }
+  
+
+
+
+
+
+    
+}
+
+
