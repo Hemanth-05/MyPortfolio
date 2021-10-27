@@ -209,20 +209,13 @@ a{
     background-color: #FFFFFF;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   }
-
-  #ed{
-      text-align: center;
+  #INTeducation h2{
+    font-family: calibri;
   }
-  
     #INTeducation{
       padding:15px;
   }
   
-  #education #ed{
-      font-family: sans-serif;
-      font-weight: bold;
-      font-size: 25px;
-  }
   
   .EDUtitle{
       font-size: 20px;
@@ -328,6 +321,10 @@ a{
     padding:40px;
     height:auto;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+#subTitleProj{
+    font-family: calibri;
 }
     
 .cardText{
